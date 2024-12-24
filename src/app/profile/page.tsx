@@ -1,6 +1,5 @@
 "use client";
 import { useUser } from "@clerk/nextjs";
-
 import { usePaginatedQuery, useQuery } from "convex/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -14,17 +13,6 @@ import Image from "next/image";
 import Link from "next/link";
 import StarButton from "@/components/StarButton";
 import CodeBlock from "./_components/CodeBlock";
-import { Id } from "../../../convex/_generated/dataModel";
-
-// Define snippet type
-interface Snippet {
-    _id: Id<"snippets">; // Ensure _id is of the correct type
-    language: string;
-    title: string;
-    code: string;
-    _creationTime: string;
-  }
-  
 
 const TABS = [
   {
@@ -43,7 +31,7 @@ function ProfilePage() {
   const { user, isLoaded } = useUser();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<"executions" | "starred">("executions");
- 
+
   const userStats = useQuery(api.codeExecutions.getUserStats, {
     userId: user?.id ?? "",
   });
@@ -230,7 +218,7 @@ function ProfilePage() {
               {/* ACTIVE TAB IS STARS: */}
               {activeTab === "starred" && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {starredSnippets?.map((snippet: Snippet) => (
+                  {starredSnippets?.map((snippet) => (
                     <div key={snippet._id} className="group relative">
                       <Link href={`/snippets/${snippet._id}`}>
                         <div
@@ -270,16 +258,32 @@ function ProfilePage() {
                                 <Clock className="w-4 h-4" />
                                 <span>{new Date(snippet._creationTime).toLocaleDateString()}</span>
                               </div>
-                              <div className="flex items-center gap-2">
-                                <Code className="w-4 h-4" />
-                                <span>{snippet.code.split("\n").length} lines</span>
-                              </div>
+                              <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                            </div>
+                          </div>
+                          <div className="px-6 pb-6">
+                            <div className="bg-black/30 rounded-lg p-4 overflow-hidden">
+                              <pre className="text-sm text-gray-300 font-mono line-clamp-3">
+                                {snippet.code}
+                              </pre>
                             </div>
                           </div>
                         </div>
                       </Link>
                     </div>
                   ))}
+
+                  {(!starredSnippets || starredSnippets.length === 0) && (
+                    <div className="col-span-full text-center py-12">
+                      <Star className="w-12 h-12 text-gray-600 mx-auto mb-4" />
+                      <h3 className="text-lg font-medium text-gray-400 mb-2">
+                        No starred snippets yet
+                      </h3>
+                      <p className="text-gray-500">
+                        Start exploring and star the snippets you find useful!
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </motion.div>
@@ -289,5 +293,4 @@ function ProfilePage() {
     </div>
   );
 }
-
 export default ProfilePage;
