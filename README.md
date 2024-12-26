@@ -40,11 +40,11 @@
 
 ---
 
+
+
 ## 🚀 Deployment  
 
 Check out the live deployment here: [Vercel Deployment](https://code-editor-sooty-zeta.vercel.app/)  
-
-Explore the codebase: [GitHub Repository](https://github.com/Janhavi2402/code-editor)  
 
 ---
 
@@ -57,3 +57,25 @@ Follow these steps to set up Code Sphere on your local machine:
 - Install **Convex CLI**:  
   ```bash
   npm install -g convex
+
+  ### Setup .env file
+
+```js
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+```
+
+### Add these env to Convex Dashboard
+
+```js
+CLERK_WEBHOOK_SECRET=
+LEMON_SQUEEZY_WEBHOOK_SECRET=
+```
+
+### Run the app
+
+```shell
+npm run dev
+```
