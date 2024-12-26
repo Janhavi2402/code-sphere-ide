@@ -1,4 +1,4 @@
-# Code Sphere 🚀  
+# Code Sphere 💻💻 
 
 **Code Sphere** is a modern, feature-rich online Integrated Development Environment (IDE) designed to simplify coding and collaboration. With support for multiple programming languages, customizable themes, and smart functionalities, it provides a seamless coding experience for developers of all levels.
 
