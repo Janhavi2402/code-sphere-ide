@@ -58,7 +58,7 @@ npm install -g convex
 ```
 
 ### Setup
-!)Setup Environment Variables
+1)Setup Environment Variables
 Create a .env file in the root directory and add the following variables:
 ```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
