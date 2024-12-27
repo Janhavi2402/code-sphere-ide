@@ -1,11 +1,8 @@
-
-
-
 export default {
-    providers: [
-      {
-        domain: "https://ultimate-pipefish-32.clerk.accounts.dev",
-        applicationID: "convex",
-      },
-    ]
-  };
+  providers: [
+    {
+      domain: process.env.CLERK_DOMAIN,
+      applicationID: process.env.CLERK_APPLICATION_ID,
+    },
+  ],
+};
