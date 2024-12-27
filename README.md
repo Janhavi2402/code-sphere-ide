@@ -48,34 +48,68 @@ Check out the live deployment here: [Vercel Deployment](https://code-editor-soot
 
 ---
 
-## ⚡ Installation and Setup  
 
-Follow these steps to set up Code Sphere on your local machine:  
 
-### Prerequisites  
-- Install **Node.js** and **npm**: [Node.js Installation Guide](https://nodejs.org/)  
-- Install **Convex CLI**:  
-  ```bash
-  npm install -g convex
 
-  ### Setup .env file
 
-```js
+
+
+
+##⚡ Installation and Setup
+
+Follow these steps to set up Code Sphere on your local machine:
+
+Prerequisites
+
+Install Node.js and npm: Node.js Installation Guide
+
+Install Convex CLI:
+
+npm install -g convex
+
+Setup Environment Variables
+
+Create a .env file in the root directory and add the following variables:
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
-```
 
-### Add these env to Convex Dashboard
+Add these environment variables to the Convex Dashboard:
 
-```js
 CLERK_WEBHOOK_SECRET=
 LEMON_SQUEEZY_WEBHOOK_SECRET=
-```
 
-### Run the app
+Install Dependencies
 
-```shell
+Run the following command to install project dependencies:
+
+npm install
+
+Run the App Locally
+
+Start the development server:
+
 npm run dev
-```
+
+
+---
+
+
+📊 Future Enhancements
+
+Expand programming language support to include 20+ languages.
+
+Add multilingual support to cater to developers worldwide.
+
+Implement dark mode with enhanced contrast for accessibility.
+
+Introduce real-time collaborative editing for teams.
+
+Enhance AI-powered assistance for code completion and documentation.
+
+---
+
+Thank you for exploring Code Sphere! Together, let’s revolutionize the way developers code and collaborate. 🚀
+
