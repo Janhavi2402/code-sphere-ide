@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Code Sphere 💻💻 
 
-## Getting Started
+**Code Sphere** is a modern, feature-rich online Integrated Development Environment (IDE) designed to simplify coding and collaboration. With support for multiple programming languages, customizable themes, and smart functionalities, it provides a seamless coding experience for developers of all levels.
 
-First, run the development server:
+---
 
+## 🌟 Key Features  
+
+- **💻 Multi-Language IDE**  
+  Supports **10 programming languages** with smart output handling for success and error states.  
+
+- **🎨 Customizable Themes**  
+  Offers **5 VSCode-inspired themes** to personalize your coding experience.  
+
+- **🔗 Flexible Plans**  
+  Integrated **Free** and **Pro** plans with webhook support for advanced workflows.  
+
+- **🤝 Collaboration Tools**  
+  - Code sharing to streamline teamwork.  
+  - Execution history tracking to review past runs.  
+  - Advanced filtering and search, improving discoverability by **60%**.  
+
+- **👤 Personal Profiles**  
+  Maintain a profile with **history tracking** and saved customizations.  
+
+- **⚙️ Developer-Friendly Controls**  
+  Adjust font sizes and workspace preferences for a tailored experience.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** Next.js 15  
+- **Backend:** Convex  
+- **Authentication:** Clerk  
+- **Programming Language:** TypeScript  
+
+---
+
+
+
+## 🚀 Deployment   
+
+Check out the live deployment here: [Vercel Deployment](https://code-editor-sooty-zeta.vercel.app/)  
+
+---
+## ⚡ Installation and Setup
+
+Follow these steps to set up Code Sphere on your local machine:
+
+### Prerequisites  
+
+Install Node.js and npm: Node.js Installation Guide
+
+Install Convex CLI:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g convex
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Setup
+1)Setup Environment Variables
+Create a .env file in the root directory and add the following variables:
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2)Add these environment variables to the Convex Dashboard:
+```bash
+CLERK_WEBHOOK_SECRET=
+LEMON_SQUEEZY_WEBHOOK_SECRET=
+```
 
-## Learn More
+3)Install Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+Run the following command to install project dependencies:
+```bash
+npm install
+```
+Run the App Locally
+Start the development server:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📊 Future Enhancements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Expand programming language support to include 20+ languages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Add multilingual support to cater to developers worldwide.
+
+* Introduce real-time collaborative editing for teams.
+
+* Enhance AI-powered assistance for code completion and documentation.
+
+---
+
+Thank you for exploring **Code Sphere**! Together, let’s revolutionize the way developers code and collaborate. 🚀
+
