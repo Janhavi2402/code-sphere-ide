@@ -1,6 +1,6 @@
 # Code Sphere 💻💻 
 
-**Code Sphere** is a modern, feature-rich online Integrated Development Environment (IDE) designed to simplify coding and collaboration. With support for multiple programming languages, customizable themes, and smart functionalities, it provides a seamless coding experience for developers of all levels.
+**Code Sphere** is a modern, feature-rich online Integrated Development Environment (IDE) designed to simplify coding and collaboration. With support for multiple programming languages, customizable themes, and smart functionalities, it provides a seamless coding experience for developers of all levels. Whether you're working solo or collaborating with a team, Code Sphere offers a reliable platform to write, run, and debug code in real-time.
 
 ---
 
@@ -19,6 +19,9 @@
   - Code sharing to streamline teamwork.  
   - Execution history tracking to review past runs.  
   - Advanced filtering and search, improving discoverability by **60%**.
+ 
+-  **💻 Live Preview**
+  Get instant feedback by seeing live previews of your code.
 
 - **📊 Statistics Dashboard**  
   Gain insights with **detailed execution metrics** and performance trends.  
@@ -28,20 +31,34 @@
   Maintain a profile with **history tracking** and saved customizations.  
 
 - **⚙️ Developer-Friendly Controls**  
-  Adjust font sizes and workspace preferences for a tailored experience.  
+  Adjust font sizes and workspace preferences for a tailored experience.
+
+  
 
 ---
 
-## 🛠️ Tech Stack  
+## 🛠️ Tech Stack
 
-- **Frontend:** Next.js 15  
-- **Backend:** Convex  
-- **Authentication:** Clerk  
-- **Programming Language:** TypeScript  
+### Frontend:
+- **Next.js**: A React-based framework used for building server-side rendered and statically generated web applications. It is the backbone of the frontend and handles routing, page rendering, and API routes.
+- **React**: A JavaScript library for building user interfaces, enabling efficient and declarative view updates.
+- **Tailwind CSS**: A utility-first CSS framework used to style the components of the app. It allows for highly customizable and responsive layouts.
+- **Framer Motion**: A React library for animations that is used to add smooth and interactive transitions in the UI.
+- **Lucide React**: Provides a set of customizable icons to enhance the user interface.
+- **React-Syntax-Highlighter**: A syntax highlighting library for displaying source code in a user-friendly way.
+
+### Backend:
+- **Convex**: A serverless platform used to manage real-time data and API interactions. Convex handles the backend logic, including user authentication, real-time updates, and database management.
+- **Clerk**: A user authentication service integrated into the app to manage sign-ups, log-ins, and user sessions. Clerk simplifies user authentication and authorization by offering built-in solutions for handling sensitive data securely.
+
+### APIs:
+- **Piston**: An API that allows the execution of code in multiple programming languages on the backend. Code is sent to Piston servers, executed in a sandboxed environment, and the results are returned to the user in real time.
+- **Svix**: Used for managing webhooks and handling real-time events like code execution results, notifications, and error handling. This API allows the app to send and receive events efficiently.
+
+### Development Tools:
+- **TypeScript**: A superset of JavaScript that adds type safety to the codebase, making it easier to write scalable and maintainable code.
 
 ---
-
-
 
 ## 🚀 Deployment   
 
