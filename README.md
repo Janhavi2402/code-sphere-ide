@@ -69,9 +69,10 @@ NEXT_PUBLIC_CONVEX_URL=
 
 
 2)Add these environment variables to the Convex Dashboard:
-
+```bash
 CLERK_WEBHOOK_SECRET=
 LEMON_SQUEEZY_WEBHOOK_SECRET=
+```
 
 3)Install Dependencies
 
