@@ -18,7 +18,11 @@
 - **🤝 Collaboration Tools**  
   - Code sharing to streamline teamwork.  
   - Execution history tracking to review past runs.  
-  - Advanced filtering and search, improving discoverability by **60%**.  
+  - Advanced filtering and search, improving discoverability by **60%**.
+
+- **📊 Statistics Dashboard**  
+  Gain insights with **detailed execution metrics** and performance trends.  
+
 
 - **👤 Personal Profiles**  
   Maintain a profile with **history tracking** and saved customizations.  
