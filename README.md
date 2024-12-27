@@ -42,74 +42,68 @@
 
 
 
-## 🚀 Deployment  
+## 🚀 Deployment   
 
 Check out the live deployment here: [Vercel Deployment](https://code-editor-sooty-zeta.vercel.app/)  
 
 ---
-
-
-
-
-
-
-
-
-##⚡ Installation and Setup
+## ⚡ Installation and Setup
 
 Follow these steps to set up Code Sphere on your local machine:
 
-Prerequisites
+### Prerequisites  
 
 Install Node.js and npm: Node.js Installation Guide
 
 Install Convex CLI:
-
+```bash
 npm install -g convex
+```
 
-Setup Environment Variables
-
+### Setup
+!)Setup Environment Variables
 Create a .env file in the root directory and add the following variables:
-
+```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
+```
 
-Add these environment variables to the Convex Dashboard:
+
+2)Add these environment variables to the Convex Dashboard:
 
 CLERK_WEBHOOK_SECRET=
 LEMON_SQUEEZY_WEBHOOK_SECRET=
 
-Install Dependencies
+3)Install Dependencies
 
 Run the following command to install project dependencies:
-
+```bash
 npm install
-
+```
 Run the App Locally
-
 Start the development server:
-
+```bash
 npm run dev
-
-
----
-
-
-📊 Future Enhancements
-
-Expand programming language support to include 20+ languages.
-
-Add multilingual support to cater to developers worldwide.
-
-Implement dark mode with enhanced contrast for accessibility.
-
-Introduce real-time collaborative editing for teams.
-
-Enhance AI-powered assistance for code completion and documentation.
+```
 
 ---
 
-Thank you for exploring Code Sphere! Together, let’s revolutionize the way developers code and collaborate. 🚀
+
+## 📊 Future Enhancements
+
+* Expand programming language support to include 20+ languages.
+
+* Add multilingual support to cater to developers worldwide.
+
+* Implement dark mode with enhanced contrast for accessibility.
+
+* Introduce real-time collaborative editing for teams.
+
+* Enhance AI-powered assistance for code completion and documentation.
+
+---
+
+Thank you for exploring **Code Sphere**! Together, let’s revolutionize the way developers code and collaborate. 🚀
 
