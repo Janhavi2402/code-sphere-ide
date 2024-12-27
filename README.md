@@ -95,8 +95,6 @@ npm run dev
 
 * Add multilingual support to cater to developers worldwide.
 
-* Implement dark mode with enhanced contrast for accessibility.
-
 * Introduce real-time collaborative editing for teams.
 
 * Enhance AI-powered assistance for code completion and documentation.
