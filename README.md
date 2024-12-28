@@ -6,54 +6,51 @@
 
 ## 🌟 Highlights  
 
----
+
 
 ### 💻 Multi-Language IDE
 
 Write, run, and debug code seamlessly in 10+ programming languages, with real-time feedback for error handling and successful execution.
 
----
+
 
 ### 🎨 Personalized Themes
 
 Choose from **5 handcrafted themes** inspired by VSCode to suit your unique coding style.
 
----
+
 
 ### ⚖️ Flexible Pricing Plans
 
 Access powerful tools with a **Free Plan**, or unlock advanced workflows, including webhook support, with the **Pro Plan**.
 
----
+
 ### 🤝 Team Collaboration Tools
 
 - **Live Code Sharing**: Share snippets instantly to streamline teamwork.
 - **Execution History Tracking**: Review and analyze your previous runs effortlessly.
 - **Enhanced Search and Filtering**: Improve code discoverability by up to **60%**.
 
----
+
  ### 🔎 Live Code Preview
 Get instant feedback by seeing **live previews** of your code, bridging the gap between ideation and execution.
   
----
+
 
 ### 📊 Statistics Dashboard
 Gain insights with **detailed execution metrics** and performance trends.  
 
----
+
 
 
 ### 👤 Personal Profiles
   Maintain a profile with **history tracking** and saved customizations.  
 
----
 
 ### ⚙️ Developer-Friendly Controls 
   Adjust font sizes and workspace preferences for a tailored experience.
 
-  
-
----
+ ---
 
 ## 🔧 Built With Cutting-Edge Technologies
 
@@ -65,19 +62,19 @@ Gain insights with **detailed execution metrics** and performance trends.
 - **Lucide React**: Provides a set of customizable icons to enhance the user interface.
 - **React-Syntax-Highlighter**: A syntax highlighting library for displaying source code in a user-friendly way.
 
----
+
 
 ### **Backend**
 - **Convex**: A serverless platform used to manage real-time data and API interactions. Convex handles the backend logic, including user authentication, real-time updates, and database management.
 - **Clerk**: A user authentication service integrated into the app to manage sign-ups, log-ins, and user sessions. Clerk simplifies user authentication and authorization by offering built-in solutions for handling sensitive data securely.
 
----
+
 
 ### **APIs**
 - **Piston**: An API that allows the execution of code in multiple programming languages on the backend. Code is sent to Piston servers, executed in a sandboxed environment, and the results are returned to the user in real time.
 - **Svix**: Used for managing webhooks and handling real-time events like code execution results, notifications, and error handling. This API allows the app to send and receive events efficiently.
 
----
+
 
 ### **Development Tools**
 - **TypeScript**: A superset of JavaScript that adds type safety to the codebase, making it easier to write scalable and maintainable code.
@@ -140,20 +137,20 @@ Open your browser and navigate to http://localhost:3000 to start coding!
 
 ## 🙌 Why Choose Code Sphere?
 
----
 
-# All-in-One Platform
-# From writing and debugging to collaboration and live previews, Code Sphere provides everything you need under one roof.
 
----
-
-# Developer-Focused Design
-# Every feature is crafted to enhance productivity, streamline workflows, and inspire creativity.
+ All-in-One Platform
+ From writing and debugging to collaboration and live previews, Code Sphere provides everything you need under one roof.
 
 ---
 
-# Scalable Solutions
-# Suitable for individuals, startups, and large-scale enterprises alike.
+Developer-Focused Design
+Every feature is crafted to enhance productivity, streamline workflows, and inspire creativity.
+
+---
+
+ Scalable Solutions
+ Suitable for individuals, startups, and large-scale enterprises alike.
 
 ---
 
@@ -165,7 +162,7 @@ Check out the live deployment here: [Vercel Deployment](https://code-editor-soot
 
 ---
 
-# We're excited to have you dive into **Code Sphere**!
-# Let’s break new ground and redefine the future of coding and collaboration together. 🚀
+We're excited to have you dive into **Code Sphere**!
+Let’s break new ground and redefine the future of coding and collaboration together. 🚀
 
 
