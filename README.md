@@ -148,10 +148,6 @@ Developer-Focused Design
 Every feature is crafted to enhance productivity, streamline workflows, and inspire creativity.
 
 
-
- Scalable Solutions
- Suitable for individuals, startups, and large-scale enterprises alike.
-
 ---
 
 ## 🚀 Deployment   
