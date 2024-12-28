@@ -159,6 +159,6 @@ Check out the live deployment here: [Vercel Deployment](https://code-editor-soot
 
 
 We're excited to have you dive into **Code Sphere**!
-Let’s break new ground and redefine the future of coding and collaboration together. 🚀
+Let’s break new ground and redefine the future of coding and collaboration together. 
 
 
