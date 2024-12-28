@@ -2,7 +2,7 @@
 
 **Code Sphere** is a modern, feature-rich online Integrated Development Environment (IDE) designed to simplify coding and collaboration. With support for multiple programming languages, customizable themes, and smart functionalities, it provides a seamless coding experience for developers of all levels. Whether you're working solo or collaborating with a team, Code Sphere offers a reliable platform to write, run, and debug code in real-time.
 
----
+
 
 ## 🌟 Highlights  
 
@@ -50,7 +50,7 @@ Gain insights with **detailed execution metrics** and performance trends.
 ### ⚙️ Developer-Friendly Controls 
   Adjust font sizes and workspace preferences for a tailored experience.
 
- ---
+
 
 ## 🔧 Built With Cutting-Edge Technologies
 
@@ -79,7 +79,7 @@ Gain insights with **detailed execution metrics** and performance trends.
 ### **Development Tools**
 - **TypeScript**: A superset of JavaScript that adds type safety to the codebase, making it easier to write scalable and maintainable code.
 
----
+
 
 
 ## 🚀 How to Get Started
@@ -133,7 +133,7 @@ npm run dev
 5)Access Your Local Instance
 Open your browser and navigate to http://localhost:3000 to start coding!
 
----
+
 
 ## 🙌 Why Choose Code Sphere?
 
@@ -148,7 +148,7 @@ Developer-Focused Design
 Every feature is crafted to enhance productivity, streamline workflows, and inspire creativity.
 
 
----
+
 
 ## 🚀 Deployment   
 
@@ -156,7 +156,7 @@ Check out the live deployment here: [Vercel Deployment](https://code-editor-soot
 
 
 
----
+
 
 We're excited to have you dive into **Code Sphere**!
 Let’s break new ground and redefine the future of coding and collaboration together. 🚀
