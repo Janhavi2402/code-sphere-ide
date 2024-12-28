@@ -142,12 +142,12 @@ Open your browser and navigate to http://localhost:3000 to start coding!
  All-in-One Platform
  From writing and debugging to collaboration and live previews, Code Sphere provides everything you need under one roof.
 
----
+
 
 Developer-Focused Design
 Every feature is crafted to enhance productivity, streamline workflows, and inspire creativity.
 
----
+
 
  Scalable Solutions
  Suitable for individuals, startups, and large-scale enterprises alike.
