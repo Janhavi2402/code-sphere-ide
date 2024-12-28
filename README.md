@@ -110,17 +110,5 @@ npm run dev
 ---
 
 
-## 📊 Future Enhancements
-
-* Expand programming language support to include 20+ languages.
-
-* Add multilingual support to cater to developers worldwide.
-
-* Introduce real-time collaborative editing for teams.
-
-* Enhance AI-powered assistance for code completion and documentation.
-
----
-
 Thank you for exploring **Code Sphere**! Together, let’s revolutionize the way developers code and collaborate. 🚀
 
