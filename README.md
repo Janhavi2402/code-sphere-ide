@@ -98,7 +98,7 @@ npm install -g convex
 
 ## Installation Steps
 
----
+
 
 ### Set Up Environment Variables
 
